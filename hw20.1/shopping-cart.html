@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
+</head>
+
+<body>
+	<div id="row">
+		<div id="col-md-12"> 
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3>Shopping List Items: <span id="counter">1</span></h3>
+				</div>
+				<div class="panel-body" id="list">
+					<div>
+						<button type="button" onClick="remove(event)" class="close"><span>X</span></button>
+						<div class="alert alert-info alert-dismissable" id="name">Tomatoes</div>
+					</div>
+				</div>
+				<div class="panel-footer">
+					<input type="text" id="itemName">
+					<button type="button" class="btn btn-primary" id="addToList">Add Item</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<script src="assets/js/shopping-cart.js"></script>
